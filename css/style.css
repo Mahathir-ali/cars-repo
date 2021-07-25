@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
+
+body {
+  background: linear-gradient(#ccc, #000);
+}
+.nav-bg-light {
+  background: linear-gradient(to right, #efeff3, #7c7e80);
+}
+.logo a img {
+  width: 70px;
+  height: 70px;
+}
+.logo a {
+  font-weight: 900;
+  font-family: "Zen Tokyo Zoo", cursive;
+}
+
+.nav-bar {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.slider {
+  position: relative;
+}
+
+.slider .details {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+}
+
+.details h1 {
+  color: #fff;
+}
+.details button {
+  border: none;
+  background: blueviolet;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+.details span button {
+  background: #fff;
+  color: #000;
+}
+
+.container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  /* grid-template-rows: repeat(2, 1fr); */
+}
+.con-2 {
+  margin-top: 50px;
+}
+
+/* .photo-frame img {
+  width: 50%;
+  height: 50%;
+} */
+
+.photo-frame {
+  position: relative;
+}
+.photo-frame .photo-detail {
+  position: absolute;
+  top: 70%;
+  left: 26%;
+}
+.photo-detail {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo-detail p a {
+  color: #fff;
+}
+.photo-detail p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.photo-detail h4 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font: 300;
+}
+.photo-detail p a:hover {
+  color: rgb(138, 132, 132);
+}
+
+.build-section {
+  width: 100%;
+  background: #ccc;
+}
+.build-section h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  padding-top: 50px;
+}
+
+.build {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.build .dream {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.dream p {
+  font-weight: 400;
+}
+.dream h5 {
+  font-weight: 300;
+}
+.dream p a {
+  color: #000;
+  font-weight: bold;
+}
+.build-section .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  margin-bottom: 100px;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sec-4 {
+  background: #fff;
+}
+.sec-4 h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 300;
+}
+.value-1 img {
+  width: 61.1px;
+  height: 61.1px;
+}
+.value-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.value-1 .value-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.value-2 p {
+  font-weight: 300;
+}
+
+.value-2 p a {
+  color: #000;
+  font-weight: 700;
+}
